@@ -1,0 +1,20 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 1% 5%;
+	background-color: #a0e4cb;
+}
+.header-name p {
+	margin: 0;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.header-link a {
+	text-decoration: none;
+	margin-left: 20px;
+	padding: 8px 15px;
+}
+.header-link a:hover {
+	background-color: #c3f8ff;
+	border-radius: 5px;
+}

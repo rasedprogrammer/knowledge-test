@@ -1,0 +1,16 @@
+.quiz-details-container {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #cff5e7;
+	border-radius: 5px;
+}
+.quiz-details-container h1 {
+	margin: 0;
+}
+.quizDetails {
+	display: flex;
+	justify-content: space-around;
+}
+.quizDetails img {
+	width: 100px;
+}

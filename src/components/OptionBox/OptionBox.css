@@ -1,0 +1,11 @@
+.optionBox {
+	background-color: #a0e4cb;
+	padding: 20px;
+	text-align: start;
+	border-radius: 5px;
+}
+.option-btn {
+	border: none;
+	background-color: transparent;
+	font-size: 16px;
+}

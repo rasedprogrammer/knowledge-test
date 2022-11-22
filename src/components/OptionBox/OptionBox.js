@@ -1,10 +1,16 @@
 import React from "react";
 import "./OptionBox.css";
 
-const OptionBox = ({ option }) => {
+const OptionBox = ({ option, showCorrectAnswer, correctAnswer }) => {
+	// console.log(correctAnswer);
 	return (
 		<div className="optionBox">
-			<button className="option-btn">{option}</button>
+			<button
+				className="option-btn"
+				onClick={() => showCorrectAnswer(option, correctAnswer)}
+			>
+				{option}
+			</button>
 		</div>
 	);
 };

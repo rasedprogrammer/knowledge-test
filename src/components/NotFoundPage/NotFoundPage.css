@@ -1,0 +1,24 @@
+.not-found {
+	width: 50%;
+	margin: 10% auto;
+}
+.not-found h2 {
+	margin-top: -70px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.not-found-404 h3 {
+	font-family: cabin, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #262626;
+	margin-bottom: -100px;
+	letter-spacing: 3px;
+	padding-left: 6px;
+}
+.not-found-404 span {
+	font-size: 252px;
+	margin-left: -20px;
+	text-shadow: -8px 0 0 #fff;
+}

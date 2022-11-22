@@ -12,9 +12,9 @@ const QuizQuestionDetails = ({ quizQuestion }) => {
 	const quizCorrectAnswer = () => toast(correctAnswer);
 	const showCorrectAnswer = (quizQuestion, correctAnswer) => {
 		if (quizQuestion === correctAnswer) {
-			toast("Correct Answer");
+			toast.success("Correct Answer");
 		} else {
-			toast("Wrong Answer");
+			toast.error("Wrong Answer");
 		}
 	};
 	console.log(quizQuestion);

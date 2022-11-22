@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
+import NotFoundPage from "./components/NotFoundPage/NotFoundPage";
 import QuizDetails from "./components/QuizDetails/QuizDetails";
 import Statistics from "./components/Statistics/Statistics";
 import Main from "./layouts/Main";
@@ -37,6 +38,10 @@ function App() {
 					element: <About></About>,
 				},
 			],
+		},
+		{
+			path: "*",
+			element: <NotFoundPage></NotFoundPage>,
 		},
 	]);
 	return (

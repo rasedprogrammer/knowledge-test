@@ -1,0 +1,10 @@
+.blog-container {
+	width: 50%;
+	margin: 0 auto;
+}
+.blog {
+	text-align: start;
+}
+.blog p {
+	text-align: justify;
+}
